@@ -1,9 +1,0 @@
-[submodule "jellybeans.vim"]
-	path = vim-bundle/jellybeans.vim
-	url = git@github.com:nanotech/jellybeans.vim
-[submodule "vim-bundle/seoul256.vim"]
-	path = vim-bundle/seoul256.vim
-	url = git@github.com:junegunn/seoul256.vim
-[submodule "vim-bundle/vim-coffee-script"]
-	path = vim-bundle/vim-coffee-script
-	url = git@github.com:kchmck/vim-coffee-script
