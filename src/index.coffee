@@ -27,6 +27,8 @@ class Vim2HTML
 		number_lines: 1
 		# return <pre> only?
 		pre_only: 0
+		# Tabstop
+		tabstop: 4
 	}
 
 	highlightString : (inputString, outputFile, opts, cb) ->
@@ -100,6 +102,7 @@ class Vim2HTML
 			"syntax on"
 			"set syntax=#{opts.syntax}"
 			"colorscheme #{opts.colorscheme}"
+			"set tabstop=#{opts.tabstop}"
 			"let g:html_no_progress=1"
 			"let g:html_ignore_folding=#{opts.ignore_folding}"
 			"let g:html_ignore_conceal=#{opts.ignore_conceal}"

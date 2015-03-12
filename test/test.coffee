@@ -13,6 +13,7 @@ testFunc = (t) ->
 		number_lines: 0
 		use_css: 0
 		pre_only: 1
+		tabstop: 2
 	}
 	# highlight some string
 	vim2html.highlightString "var x={() ==> ERRo'neous';function <3", '/tmp/fpoo', opts, (err, data) ->
