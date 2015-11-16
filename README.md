@@ -1,6 +1,8 @@
 vim2html
 ====================
 
+[![Build Status](https://travis-ci.org/kba/node-vim2html.svg?branch=master)](https://travis-ci.org/kba/node-vim2html)
+
 Create syntax-highlighted HTML from source code using Vim's 2html script
 
 ```coffee
