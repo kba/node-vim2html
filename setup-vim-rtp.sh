@@ -9,12 +9,12 @@ for dir in colors syntax;do
 done
 
 declare -a vim_assets=(
+    "colors/jellybeans.vim"     "https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim"
+    "colors/seoul256.vim"       "https://raw.githubusercontent.com/junegunn/seoul256.vim/master/colors/seoul256.vim"
+    "colors/seoul256-light.vim" "https://raw.githubusercontent.com/junegunn/seoul256.vim/master/colors/seoul256-light.vim"
+    "colors/monokai.vim"        "https://raw.githubusercontent.com/kba/vim-monokai/master/colors/monokai.vim"
     "syntax/coffee.vim"         "https://raw.githubusercontent.com/kchmck/vim-coffee-script/master/syntax/coffee.vim"
     "syntax/turtleson.vim"      "https://raw.githubusercontent.com/kba/turtleson.vim/master/syntax/turtleson.vim"
-    "colors/jellybeans.vim"     "https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim"
-    "syntax/seoul256.vim"       "https://raw.githubusercontent.com/junegunn/seoul256.vim/master/colors/seoul256.vim"
-    "syntax/seoul256-light.vim" "https://raw.githubusercontent.com/junegunn/seoul256.vim/master/colors/seoul256-light.vim"
-    "colors/monokai.vim"        "https://raw.githubusercontent.com/kba/vim-monokai/master/colors/monokai.vim"
     "syntax/n3.vim"             "https://raw.githubusercontent.com/neapel/vim-n3-syntax/master/syntax/n3.vim"
 )
 
