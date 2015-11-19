@@ -27,3 +27,4 @@ vim-rtp/syntax:
 	cd vim-rtp/syntax && $(WGET) "$(RAWGITHUB)/kchmck/vim-coffee-script/master/syntax/coffee.vim"
 	cd vim-rtp/syntax && $(WGET) "$(RAWGITHUB)/kba/turtleson.vim/master/syntax/turtleson.vim"
 	cd vim-rtp/syntax && $(WGET) "$(RAWGITHUB)/neapel/vim-n3-syntax/master/syntax/n3.vim"
+	cd vim-rtp/syntax && $(WGET) "$(RAWGITHUB)/elzr/vim-json/master/syntax/json.vim"
