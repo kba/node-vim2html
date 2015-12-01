@@ -16,6 +16,7 @@ clean:
 vim-rtp: vim-rtp/colors vim-rtp/syntax
 
 vim-colorschemes:
+	git submodule init
 	git submodule update
 
 vim-rtp/colors: vim-colorschemes
