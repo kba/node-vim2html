@@ -1,6 +1,6 @@
 {
   "name": "vim2html",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Create syntax-highlighted HTML from source code using Vim's 2html script",
   "scripts": {
     "test": "coffee test/*.coffee | tap-spec",
@@ -27,6 +27,8 @@
     "tap-spec": "^2.2.2",
     "tapes": "^0.4.1"
   },
-  "bin": {"vim2html": "./bin/vim2html"},
+  "bin": {
+    "vim2html": "./bin/vim2html"
+  },
   "main": "lib/index.js"
 }
