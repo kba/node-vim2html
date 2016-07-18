@@ -1,4 +1,4 @@
-### 
+###
 # Some Module
 
 ###
@@ -92,8 +92,8 @@ class Vim2HTML
 			suffix: '.html'
 		}
 		cmdArgs = [
-			"-E"	# Extended Ex mode
-			"-s"	# silent
+			# "-E"	# Extended Ex mode
+			# "-s"	# silent
 		]
 		cmdArgs.push "-c"
 		cmdArgs.push [
@@ -122,7 +122,7 @@ class Vim2HTML
 
 		# console.log "#{opts.vimExecutable} #{cmdArgs.map((v)->"'#{v}'").join(' ')}"
 		vim = ChildProcess.spawn(opts.vimExecutable, cmdArgs)
-		vim.on 'error', (err) -> 
+		vim.on 'error', (err) ->
 			return cb new Error('Could not spawn vim process')
 
 		# When vim finished without error, read back the html and return it
