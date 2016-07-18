@@ -27,5 +27,6 @@
     "tap-spec": "^2.2.2",
     "tapes": "^0.4.1"
   },
+  "bin": {"vim2html": "./bin/vim2html"},
   "main": "lib/index.js"
 }
