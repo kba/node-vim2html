@@ -5,8 +5,7 @@ CP = cp -rv
 
 all: lib vim-rtp
 
-lib:
-	echo $(RAWGITHUB)
+lib: src
 	coffee -o lib src
 
 clean:
