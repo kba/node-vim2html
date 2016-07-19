@@ -8,6 +8,8 @@ Mv			 = require 'mv'
 Fs           = require 'fs'
 ChildProcess = require 'child_process'
 
+Temp.track()
+
 class Vim2HTML
 
 	_defaultOpts : {
